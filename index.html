@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <meta name="description" content="Max Cleiton - Desenvolvedor Web" />
+    <title>Portfolio - Max</title>
+  </head>
+
+  <body>
+    <header class="cabecalho">
+      <nav class="cabecalho-menu">
+        <a href="#conteudo-apresentacao" class="cabecalho-menu-item">Quem sou eu</a>
+        <a href="#conteudo-contato" class="cabecalho-menu-item">Contato</a>
+        <a href="#conteudo-projetos" class="cabecalho-menu-item">Projetos</a>
+        <a href="#conteudo-hard-skills" class="cabecalho-menu-item">Hard skills</a>
+      </nav>
+    </header>
+
+    <main class="conteudo">
+        <a name="conteudo-apresentacao" /><section class="conteudo-apresentacao">
+        <div class="conteudo-apresentacao-texto">
+          <h1>< Max Cleiton /></h1>
+          <h2>Desenvolvedor web</h2>
+        </div>
+        <img
+          class="conteudo-apresentacao-imagem"
+          src="./assets/images/me.png"
+          alt="Imagem de Max Cleiton"
+        />
+      </section>
+
+      <section class="conteudo-quem-sou-eu">
+        <h2 class="conteudo-quem-sou-eu-texto-titulo">Sobre mim</h2>
+
+        <p class="conteudo-quem-sou-eu-texto">
+          Eu sou só mais um jovem que decidiu unir: o gosto por computadores...
+          com o ganha-pão (rsrs). Brincadeiras à parte, já trabalhei com várias
+          coisas nessa minha (curta) vida. Até enfim aceitar que meu lugar é de frente
+          ao monitor.
+        </p>
+
+        <!-- <div class="conteudo-quem-sou-eu-img-texto">
+            <img class="conteudo-quem-sou-eu-imagem-2008" src="./assets/images/eu-2008.jpg" alt="Imagem de Max Cleiton em 2008">
+            <p class="conteudo-quem-sou-eu-texto">Graças a meu pai, eu tenho contato com computadores desde criança (9 anos na foto). Desde então, a informática se tornou uma constante para mim.</p>
+        </div> -->
+      </section>
+
+        <section class="conteudo-contato">
+          <a name="conteudo-contato"></a>
+        <h2 class="conteudo-contato-titulo">Fale comigo</h2>
+        <section class="conteudo-contato-imagens">
+          <a href="mailto:maxcleiton@live.com" target="_blank"
+            ><img
+              class="conteudo-contato-img"
+              src="./assets/images/contacts/email.png"
+              alt="Imagem clicável Email"
+            />
+          </a>
+          <a href="https://github.com/maxxcleiton" target="_blank"
+            ><img
+              class="conteudo-contato-img"
+              src="./assets/images/contacts/github.png"
+              alt="Imagem clicável GitHub"
+            />
+          </a>
+          <a href="https://www.instagram.com/maxcleitonn/" target="_blank"
+            ><img
+              class="conteudo-contato-img"
+              src="./assets/images/contacts/insta-2.png"
+              alt="Imagem clicável Instagram"
+            />
+          </a>
+          <a href="https://www.linkedin.com/in/maxcleiton/" target="_blank"
+            ><img
+              class="conteudo-contato-img"
+              src="./assets/images/contacts/linkedin.png"
+              alt="Imagem clicável Linkedin"
+            />
+          </a>
+          <a href="https://wa.me/5579988148576?text=Ol%C3%A1+Max%21+vim+atrav%C3%A9s+do+seu+site+Portfolio" target="_blank"
+            ><img
+              class="conteudo-contato-img"
+              src="./assets/images/contacts/wpp-2.png"
+              alt="Imagem clicável WhatsApp"
+            />
+          </a>
+        </section>
+      </section>
+
+      <section class="conteudo-projetos">
+        <a name="conteudo-projetos"></a>
+        <h2 class="conteudo-projetos-titulo">Meus projetos</h2>
+        <h5 class="conteudo-projetos-titulo-2">
+          < Muda de projeto ao clicar no botão />
+        </h5>
+
+        <button type="button" class="conteudo-projetos-thumbs-buttons" onclick="mudarTudo1()">
+          <h4>Lógica de Programação (JavaScript)</h4>
+        </button>
+        <section class="conteudo-projetos-thumbs">
+          <a id="aLogicaProgramacao" href="https://github.com/maxxcleiton/projetosBlueEdtech/blob/main/M%C3%B3dulo%201%20-%20L%C3%B3gica%20de%20Programa%C3%A7%C3%A3o/Projeto%2001%20-%20Jornada%20do%20Her%C3%B3i.js" target="_blank"
+            ><figure>
+              <img
+                id="imgLogicaProgramacao"
+                class="conteudo-projetos-thumbs-img"
+                src="./assets/gifs/mod1proj1.gif"
+                alt="Gif do Projeto Jornada do Herói feito em JavaScript onde ele reage a respostas relativas ao sucesso da missão"
+              />
+            <figcaption id="legLogicaProgramacao">
+              Jornada do Herói
+            </figcaption>
+            </figure>
+          </a>
+        </section>
+
+        <button type="button" class="conteudo-projetos-thumbs-buttons" onclick="mudarTudo2()">
+          <h4>HTML, CSS, DOM (JavaScript)</h4>
+        </button>
+        <section class="conteudo-projetos-thumbs">
+          <a id="aDOM" href="https://github.com/maxxcleiton/projetosBlueEdtech/tree/main/M%C3%B3dulo%202%20-%20HTML%2C%20CSS%2C%20JavaScript/Projeto%2001%20-%20Jogo%20do%20Humor" target="_blank"
+            ><figure>
+              <img
+                id="imgDOM"
+                class="conteudo-projetos-thumbs-img"
+                src="./assets/gifs/mod2proj1.gif"
+                alt="Gif do Projeto Jogo do Humor, onde mostra as várias atuações do ator Robert Pattinson"
+              />
+              <figcaption id="legDOM">Projeto "Jogo do Humor"</figcaption>
+            </figure>
+          </a>
+        </section>
+
+        <button type="button" class="conteudo-projetos-thumbs-buttons" onclick="mudarTudo3()">
+          <h4>HTML, CSS, JS, CRUD (JavaScript)</h4>
+        </button>
+        <section class="conteudo-projetos-thumbs">
+          <a id="aCRUD" href="https://github.com/maxxcleiton/projeto2modulo2" target="_blank"
+            ><figure>
+              <img
+                id="imgCRUD"
+                class="conteudo-projetos-thumbs-img"
+                src="./assets/gifs/mod2proj2.gif"
+                alt="Gif do Projeto Pokedex utilizando CRUD"
+              />
+            <figcaption id="legCRUD">Pokedex utilizando CRUD</figcaption>
+            </figure>
+          </a>
+        </section>
+      </section>
+
+      <section class="conteudo-hard-skills">
+        <a name="conteudo-hard-skills"></a>
+        <h2 class="conteudo-hard-skills-titulo">Hard skills</h2>
+        <section class="conteudo-hard-skills-thumbs">
+          <a href="#"
+            ><img
+              class="conteudo-hard-skills-thumbs-img"
+              src="./assets/images/stacks/css3.png"
+              alt="CSS Logo"
+            />
+          </a>
+          <a href="#"
+            ><img
+              class="conteudo-hard-skills-thumbs-img"
+              src="./assets/images/stacks/html.png"
+              alt="HTML Logo"
+            />
+          </a>
+          <a href="#"
+            ><img
+              class="conteudo-hard-skills-thumbs-img"
+              src="./assets/images/stacks/js.png"
+              alt="JavaScript Logo"
+            />
+          </a>
+          <a href="#"
+            ><img
+              class="conteudo-hard-skills-thumbs-img"
+              src="./assets/images/stacks/react.png"
+              alt="React Logo"
+            />
+          </a>
+          <a href="#"
+            ><img
+              class="conteudo-hard-skills-thumbs-img"
+              src="./assets/images/stacks/git.png"
+              alt="Git Logo"
+            />
+          </a>
+          <a href="#"
+            ><img
+              class="conteudo-hard-skills-thumbs-img"
+              src="./assets/images/stacks/node.png"
+              alt="NodeLogo"
+            />
+          </a>
+        </section>
+      </section>
+    </main>
+
+    <footer>
+        <h4>Site criado por Max Cleiton</h3>
+</footer>
+    <script src="assets\js\script.js"></script>
+  </body>
+</html>

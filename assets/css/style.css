@@ -1,0 +1,272 @@
+/* * {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    height: 10vh;
+    background-color: #ffffff;
+
+}
+
+main {
+    min-height: 80vh;
+    background-color: #ffffff;
+
+}
+
+footer {
+    height: 10vh;
+    background-color: #e1e1e1;
+
+} 
+
+.conteudo-apresentacao-imagem {
+    height: 200px;
+}
+
+.conteudo-quem-sou-eu-imagem-2008{
+    height: 200px;
+} */
+
+/* Fim de meu código */
+/* Começo do código da ballieri */
+
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&family=Tiro+Gurmukhi&display=swap");
+/* font-family: "Tiro Gurmukhi", serif;
+font-family: 'Exo 2', sans-serif; */
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  min-height: 100vh;
+  font-size: 100%;
+  background: linear-gradient(68.15deg, #5c5c63 16.62%, #563bb9 95.61%);
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 14px;
+}
+
+.cabecalho-menu {
+  display: flex;
+  gap: 1rem;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #eadeda;
+}
+
+.cabecalho-menu-item {
+  color: #81baff;
+}
+.conteudo {
+  /* margin-bottom: 32px; */
+  /* border-top: 0.4px solid #eadeda; */
+  /* width: 50vw; */
+}
+
+.conteudo-apresentacao {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 28px;
+  gap: 20px;
+  /* max-width: 40%; */
+}
+
+.conteudo-apresentacao h2 {
+  font-size: 26px;
+}
+
+.conteudo-apresentacao-texto {
+  display: flex;
+  flex-direction: column;
+  font-family: "Exo 2", sans-serif;
+  font-size: 28px;
+  color: #eadeda;
+  gap: 6px;
+}
+
+.conteudo-apresentacao-imagem {
+  height: 300px;
+}
+
+.conteudo-quem-sou-eu {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 68px;
+  margin-bottom: 68px;
+}
+
+.conteudo-quem-sou-eu-texto-titulo {
+  border-top: 0.4px solid;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  font-family: "Exo 2", sans-serif;
+  font-size: 36px;
+  color: #eadeda;
+}
+
+.conteudo-quem-sou-eu-texto {
+  font-family: "Tiro Gurmukhi", serif;
+  max-width: 40vw;
+  font-size: 18px;
+  color: #eadeda;
+}
+
+.conteudo-quem-sou-eu-img-texto {
+  font-family: "Tiro Gurmukhi", serif;
+  font-size: 18px;
+  color: #eadeda;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 50vw;
+  padding-top: 36px;
+  gap: 26px;
+}
+
+.conteudo-quem-sou-eu-imagem-2008 {
+  height: 250px;
+  /* border-radius: 50%; */
+  padding-bottom: 36px;
+}
+
+.conteudo-contato {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.conteudo-contato-titulo {
+  border-top: 0.4px solid;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  font-family: "Exo 2", sans-serif;
+  font-size: 36px;
+  color: #eadeda;
+}
+
+.conteudo-contato-imagens {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 36px;
+}
+
+.conteudo-contato-img {
+  max-height: 100px;
+}
+
+.conteudo-projetos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.conteudo-projetos-titulo {
+  border-top: 0.4px solid;
+  padding-top: 36px;
+  font-family: "Exo 2", sans-serif;
+  font-size: 36px;
+  color: #eadeda;
+}
+
+.conteudo-projetos-titulo-2 {
+ font-family: "Tiro Gurmukhi", serif;
+ padding-bottom: 36px;
+ font-weight: 600;
+ color: #eadeda;
+}
+
+.conteudo-projetos-thumbs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 36px;
+}
+
+.conteudo-projetos-thumbs figcaption {
+  font-family: "Exo 2", sans-serif;
+  color: #eeeded;
+  font-weight: 600;
+  text-shadow: 0.2px 0.2px black;
+}
+
+.conteudo-projetos-thumbs-img {
+  max-width: 50vw;
+}
+
+.conteudo-projetos-thumbs-buttons {
+    background-color: #6b6b6b;
+    color: white;
+    border: none;
+    font-family: "Exo 2", sans-serif;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.conteudo-projetos-thumbs {
+    margin-bottom: 5px;
+}
+
+.conteudo-hard-skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.conteudo-hard-skills-titulo {
+  border-top: 0.4px solid;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  font-family: "Exo 2", sans-serif;
+  font-size: 36px;
+  color: #eadeda;
+}
+
+.conteudo-hard-skills-thumbs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 36px;
+}
+
+.conteudo-hard-skills-thumbs-img {
+  margin: 10px;
+  width: 100px;
+}
+
+footer {
+  padding-bottom: 16px;
+  background-color: #000000;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}

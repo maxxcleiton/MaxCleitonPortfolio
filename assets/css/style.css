@@ -41,6 +41,7 @@ footer {
 @import url("https://fonts.googleapis.com/css2?family=Exo+2&family=Tiro+Gurmukhi&display=swap");
 /* font-family: "Tiro Gurmukhi", serif;
 font-family: 'Exo 2', sans-serif; */
+
 html {
   scroll-behavior: smooth;
 }
@@ -63,21 +64,33 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  padding: 14px;
+  padding: 2rem;
 }
+
+
 
 .cabecalho-menu {
   display: flex;
+  flex-direction: column;
   gap: 1rem;
   font-family: "Exo 2", sans-serif;
   font-weight: 600;
-  font-size: 16px;
-  color: #eadeda;
+  /* font-size: 16px; */
+  /* color: #eadeda; */
+}
+
+@media only screen and (min-width:420px){
+  .cabecalho-menu {
+    flex-direction: row;
+
+  }
+  
 }
 
 .cabecalho-menu-item {
   color: #81baff;
 }
+
 .conteudo {
   /* margin-bottom: 32px; */
   /* border-top: 0.4px solid #eadeda; */
@@ -86,12 +99,25 @@ body {
 
 .conteudo-apresentacao {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: 28px;
   gap: 20px;
-  /* max-width: 40%; */
+  /* max-width: 40vw; */
+}
+
+.conteudo-apresentacao-imagem {
+  width: 150px;
+}
+
+@media only screen and (min-width: 420px) {
+  .conteudo-apresentacao {
+    flex-direction: row;
+  }
+  .conteudo-apresentacao-imagem {
+    width: 300px;
+  }
 }
 
 .conteudo-apresentacao h2 {
@@ -107,9 +133,9 @@ body {
   gap: 6px;
 }
 
-.conteudo-apresentacao-imagem {
-  height: 300px;
-}
+
+
+
 
 .conteudo-quem-sou-eu {
   display: flex;
@@ -129,13 +155,13 @@ body {
   color: #eadeda;
 }
 
-.conteudo-quem-sou-eu-texto {
+ .conteudo-quem-sou-eu-texto {
   font-family: "Tiro Gurmukhi", serif;
   max-width: 40vw;
   font-size: 18px;
   color: #eadeda;
 }
-
+/*
 .conteudo-quem-sou-eu-img-texto {
   font-family: "Tiro Gurmukhi", serif;
   font-size: 18px;
@@ -151,8 +177,8 @@ body {
 .conteudo-quem-sou-eu-imagem-2008 {
   height: 250px;
   /* border-radius: 50%; */
-  padding-bottom: 36px;
-}
+  /* padding-bottom: 36px;
+} */
 
 .conteudo-contato {
   display: flex;
@@ -172,9 +198,16 @@ body {
 
 .conteudo-contato-imagens {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding-bottom: 36px;
+}
+
+@media only screen and (min-width: 420px) {
+  .conteudo-contato-imagens {
+    flex-direction: row;
+  }
 }
 
 .conteudo-contato-img {
@@ -215,21 +248,31 @@ body {
   color: #eeeded;
   font-weight: 600;
   text-shadow: 0.2px 0.2px black;
+  max-width: 50vw;
 }
 
 .conteudo-projetos-thumbs-img {
+  /* min-width: 30vw; */
   max-width: 50vw;
 }
+
 
 .conteudo-projetos-thumbs-buttons {
     background-color: #6b6b6b;
     color: white;
     border: none;
     font-family: "Exo 2", sans-serif;
-    padding: 5px;
+    padding: 15px;
     margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
 }
 
+.conteudo-projetos-thumbs-buttons:hover {
+  background-color: rgb(38, 0, 255);
+  transition: 0.6s;
+  cursor: pointer;
+}
 .conteudo-projetos-thumbs {
     margin-bottom: 5px;
 }
@@ -252,9 +295,17 @@ body {
 
 .conteudo-hard-skills-thumbs {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding-bottom: 36px;
+  width: 100%;
+}
+
+@media only screen and (min-width: 420px) {
+  .conteudo-hard-skills-thumbs {
+    flex-direction: row;
+  }
 }
 
 .conteudo-hard-skills-thumbs-img {

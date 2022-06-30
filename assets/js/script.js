@@ -22,17 +22,17 @@ i++;
 if(i == 1){
     imgLogicaProgramacao.setAttribute("src", "./assets/gifs/mod1proj2.gif");
     imgLogicaProgramacao.setAttribute("alt", "Jogo do Pedra, papel e tesoura")
-    aLogicaProgramacao.setAttribute("href", "t.ly/HFiU");
+    aLogicaProgramacao.setAttribute("href", "https://t.ly/HFiU");
     legLogicaProgramacao.innerHTML = "<figcaption>Jogo do Pedra, papel e tesoura</figcaption>";
 } else if (i == 2){
     imgLogicaProgramacao.setAttribute("src", "./assets/gifs/mod1proj3.gif");
     imgLogicaProgramacao.setAttribute("alt", "Jogo de Ficção Interativa usando JScript")
-    aLogicaProgramacao.setAttribute("href", "t.ly/_IRf");
+    aLogicaProgramacao.setAttribute("href", "https://t.ly/_IRf");
     legLogicaProgramacao.innerHTML = "<figcaption>Jogo de Ficção Interativa</figcaption>";
 } else if (i == 3){
     imgLogicaProgramacao.setAttribute("src", "./assets/gifs/mod1proj1.gif");
     imgLogicaProgramacao.setAttribute("alt", "Gif do Projeto Jornada do Herói feito em JavaScript onde ele reage a respostas relativas ao sucesso da missão")
-    aLogicaProgramacao.setAttribute("href", "t.ly/NY_K");
+    aLogicaProgramacao.setAttribute("href", "https://t.ly/NY_K");
     legLogicaProgramacao.innerHTML = "<figcaption>Jornada do Herói</figcaption>";
 } else {
     i = 0;
@@ -65,7 +65,7 @@ function mudarTudo3(){
     } else if (i == 2){
         imgCRUD.setAttribute("src", "./assets/gifs/mod3proj1.gif");
         imgCRUD.setAttribute("alt", "Site CRUD usando JS Puro e consumindo uma API");
-        aCRUD.setAttribute("href", "https://github.com/maxxcleiton/projetosBlueEdtech/tree/main/M%C3%B3dulo%203%20-%20Frontend/Projeto%201%20-%20CRUD%20com%20JS%20Vanilla");
+        aCRUD.setAttribute("href", "https://github.com/maxxcleiton/projeto1modulo3-BlueEdTech");
         legCRUD.innerHTML = "<figcaption>Site CRUD usando JS Puro e consumindo uma API</figcaption>";
     } else if (i == 3){
         imgCRUD.setAttribute("src", "./assets/gifs/mod3proj2.gif");

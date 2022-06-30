@@ -22,17 +22,17 @@ i++;
 if(i == 1){
     imgLogicaProgramacao.setAttribute("src", "./assets/gifs/mod1proj2.gif");
     imgLogicaProgramacao.setAttribute("alt", "Jogo do Pedra, papel e tesoura")
-    aLogicaProgramacao.setAttribute("href", "https://github.com/maxxcleiton/projetosBlueEdtech/blob/main/M%C3%B3dulo%201%20-%20L%C3%B3gica%20de%20Programa%C3%A7%C3%A3o/Projeto%2002%20-%20Pedra%2C%20papel%20e%20tesoura.js");
+    aLogicaProgramacao.setAttribute("href", "t.ly/HFiU");
     legLogicaProgramacao.innerHTML = "<figcaption>Jogo do Pedra, papel e tesoura</figcaption>";
 } else if (i == 2){
     imgLogicaProgramacao.setAttribute("src", "./assets/gifs/mod1proj3.gif");
     imgLogicaProgramacao.setAttribute("alt", "Jogo de Ficção Interativa usando JScript")
-    aLogicaProgramacao.setAttribute("href", "https://github.com/maxxcleiton/projetosBlueEdtech/blob/main/M%C3%B3dulo%201%20-%20L%C3%B3gica%20de%20Programa%C3%A7%C3%A3o/Projeto%2003%20-%20Fic%C3%A7%C3%A3o%20Interativa.js");
+    aLogicaProgramacao.setAttribute("href", "t.ly/_IRf");
     legLogicaProgramacao.innerHTML = "<figcaption>Jogo de Ficção Interativa</figcaption>";
 } else if (i == 3){
     imgLogicaProgramacao.setAttribute("src", "./assets/gifs/mod1proj1.gif");
     imgLogicaProgramacao.setAttribute("alt", "Gif do Projeto Jornada do Herói feito em JavaScript onde ele reage a respostas relativas ao sucesso da missão")
-    aLogicaProgramacao.setAttribute("href", "https://github.com/maxxcleiton/projetosBlueEdtech/blob/main/M%C3%B3dulo%201%20-%20L%C3%B3gica%20de%20Programa%C3%A7%C3%A3o/Projeto%2001%20-%20Jornada%20do%20Her%C3%B3i.js");
+    aLogicaProgramacao.setAttribute("href", "t.ly/NY_K");
     legLogicaProgramacao.innerHTML = "<figcaption>Jornada do Herói</figcaption>";
 } else {
     i = 0;
